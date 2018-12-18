@@ -7,3 +7,16 @@ echo $json['SMSError'];
 
 
 
+
+
+$parts = parse_url($url);
+parse_str($parts['query'], $query);
+echo $query['email'];
+
+Devang
+sudo apt update
+sudo apt install mysql-workbench
+mysql-workbench
+
+
+SELECT FORMAT(SUM(calories) FROM calorietrack WHERE username = $username and date = CURDATE();
